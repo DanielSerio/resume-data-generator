@@ -42,19 +42,20 @@ const data: JSON = JSON.parse(JSON.stringify({
         new Skill('Adobe InDesign', 'https://www.adobe.com/products/indesign.html')
       ],
       tools: [
-        new Skill('Typescript'),
-        new Skill('Javascript'),
-        new Skill('NodeJS'),
-        new Skill('Python'),
-        new Skill('SASS/SCSS/POSTCSS'),
-        new Skill('HTML/CSS'),
-        new Skill('expressJS'),
-        new Skill('React'),
-        new Skill('Angular'),
-        new Skill('Vue'),
-        new Skill('Webpack'),
-        new Skill('Parcel'),
-        new Skill('Gulp')
+        new Skill('Typescript', 'https://www.typescriptlang.org/'),
+        new Skill('Javascript', 'https://en.wikipedia.org/wiki/JavaScript'),
+        new Skill('NodeJS', 'https://nodejs.org/en/'),
+        new Skill('Python', 'https://www.python.org/'),
+        new Skill('SASS/SCSS', 'https://sass-lang.com/'),
+        new Skill('Postcss', 'https://postcss.org/'),
+        new Skill('HTML/CSS', 'https://en.wikipedia.org/wiki/HTML'),
+        new Skill('expressJS', 'https://expressjs.com/'),
+        new Skill('React', 'https://reactjs.org/'),
+        new Skill('Angular', 'https://angular.io/'),
+        new Skill('Vue', 'https://vuejs.org/'),
+        new Skill('Webpack', 'https://webpack.js.org/'),
+        new Skill('Parcel', 'https://parceljs.org/'),
+        new Skill('Gulp', 'https://gulpjs.com/')
       ]
     },
     personal: [
